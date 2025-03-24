@@ -1,0 +1,152 @@
+.add-note-form {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.156);
+    justify-content: center;
+    align-items: center;
+}
+
+.add-note-content {
+    position: relative;
+    background-color: #fff;
+    padding: 18px 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 560px;
+    color: #383E49;
+    display: flex;
+    flex-direction: column;
+}
+
+.close-add-note {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    font-size: 20px;
+    color: rgb(158, 158, 158);
+    cursor: pointer;
+}
+
+.add-note-content label {
+    font-size: 14px;
+}
+
+.add-note-content .input-title {
+    font-size: 22px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    color: #383E49;
+}
+
+.add-note-content .input-title::placeholder {
+    color: rgb(167, 167, 167);
+}
+
+.add-note-content .input-content {
+    height: 250px;
+    resize: none;
+    background-color: #eef2f4;
+    padding: 6px 8px;
+    border: none;
+    outline: none;
+    color: #383E49;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    margin-top: 4px;
+}
+
+.add-note-content .tags {
+    margin-bottom: 12px;
+}
+
+.add-note-content .tags .add-tag-container {
+    display: flex;
+    align-items: center;
+    height: max-content;
+    gap: 10px;
+}
+
+.add-note-content .tags .add-tag-container .add-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(44, 178, 250);
+    color: rgb(44, 178, 250);
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 6px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.add-note-content .tags .add-tag-container .input-add-tag {
+    width: 30%;
+    font-size: 16px;
+    padding: 8px 12px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #dfe1e3;
+    border-radius: 5px;
+    margin-top: 6px;
+    color: #383E49;
+}
+
+.add-note-content .tags .add-tag-container .input-add-tag::placeholder {
+    color: rgb(167, 167, 167);
+}
+
+.add-note-content .tags .tags-list .name-tag {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    background-color: #e5eef3;
+    padding: 4px 6px;
+    border-radius: 5px;
+    width: max-content;
+    gap: 6px;
+}
+
+.add-note-content .tags .tags-list {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    display: flex;
+    gap: 10px;
+}
+
+.add-note-content .tags .tags-list .name-tag .delete-name-tag {
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.add-note-content .tags .tags-list .name-tag h3 {
+    font-weight: 500;
+}
+
+.add-final-note {
+    padding: 10px 0px;
+    background-color: rgb(7, 154, 233);
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.add-final-note:hover {
+    opacity: 0.9;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

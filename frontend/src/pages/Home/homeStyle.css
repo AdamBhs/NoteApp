@@ -1,0 +1,45 @@
+.content {
+    margin-top: 100px;
+}
+
+.notes {
+    position: relative;
+}
+
+.notes-container-vide {
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notes-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+
+.notes .add-note {
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    background-color: rgb(44, 178, 250);
+    color: #eee;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+.notes .add-note:hover {
+    transform: scale(1.02);
+}
+

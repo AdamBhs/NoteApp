@@ -1,0 +1,45 @@
+nav {
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 10;
+ padding-top: 16px;
+ padding-bottom: 16px;
+ background-color: #ffff;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav div {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+nav div h3 {
+ font-weight: 500;
+ font-size: 21px;
+}
+
+/* Tablet devices (768px and below) */
+@media (max-width: 768px) {
+ nav {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /* Adjust padding for tablet */
+ }
+}
+
+/* Mobile devices (480px and below) */
+@media (max-width: 480px) {
+ nav {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  /* Adjust padding for mobile */
+ }
+
+ /* Optional: Stack navigation items vertically on mobile */
+ .nav-item {
+  display: block;
+  margin: 5px 0;
+ }
+}

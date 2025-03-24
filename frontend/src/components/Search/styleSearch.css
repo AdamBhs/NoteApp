@@ -1,0 +1,22 @@
+.search-container {
+ width: 300px;
+ padding: 6px 10px;
+ border-radius: 10px;
+ display: flex;
+ align-items: center;
+ background-color: #daedf8;
+}
+
+.search-container input {
+ background-color: transparent;
+ padding: 4px 6px;
+ width: 260px;
+ border: none;
+ outline: none;
+ color: #1b262c;
+}
+
+.i-search {
+ color: #aaaaaa;
+ cursor: pointer;
+}

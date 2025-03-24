@@ -1,0 +1,125 @@
+.profil-container {
+    display: flex;
+    gap: 20px;
+}
+
+.name-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+    height: 22px;
+    width: 22px;
+    background-color: #bbe1fa;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.username h4 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.username a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* Style the card */
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px 20px;
+    border: 1px solid #DDE6ED;
+    border-radius: 6px;
+    min-height: 120px;
+    transition: all 0.2s ease;
+}
+
+.card-container:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-container .card-date {
+    font-size: 14px;
+    color: #cccaca;
+}
+
+.card-container .pin-icon {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #9DB2BF;
+}
+
+.card-container .pin-icon.pinned {
+    color: #3aa7ef;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.card-container .edit-delete-note {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    position: absolute;
+    bottom: 14px;
+    right: 20px;
+    font-size: 20px;
+    color: #9DB2BF;
+}
+
+.card-container .edit-delete-note .edit-note {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.card-container .edit-delete-note .edit-note:hover {
+    color: rgb(4, 165, 4);
+}
+
+.card-container .edit-delete-note .delete-note {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.card-container .edit-delete-note .delete-note:hover {
+    color: rgb(195, 1, 1);
+}
+
+.card-container .no-tags {
+    font-size: 14px;
+}
+
+.card-container .card-content {
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-tags {
+    display: flex;
+    gap: 6px
+}
+.tag {
+    color: #4e595f;
+    font-size: 14px;
+}

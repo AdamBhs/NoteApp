@@ -1,0 +1,16 @@
+.vide-dashboard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.vide-dashboard img {
+    width: 140px;
+}
+
+.vide-dashboard p {
+    width: 80%;
+    text-align: center;
+}
