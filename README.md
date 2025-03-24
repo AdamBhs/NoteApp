@@ -8,8 +8,8 @@
 
 ### Dashboard
 
-![Dashboard 1](./assets/Dashboard.png)
+![Dashboard_1](./assets/Dashboard.png)
 
 ### Adding Note
 
-![Dashboard 2](./assets/Dashboard_2.png)
+![Dashboard_2](./assets/Dashboard_2.png)
